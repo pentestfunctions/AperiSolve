@@ -1,4 +1,4 @@
-FROM python:3.10.11-slim-bullseye
+FROM python:3.13.2-slim-bullseye
 WORKDIR /app
 COPY . .
 ENV FLASK_APP=app.py
